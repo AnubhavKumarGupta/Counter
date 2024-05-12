@@ -1,12 +1,13 @@
 # Word_Counter
-Link. 👉 
+
+Link. 👉 https://counter-word.vercel.app/
 
 
 ##
 - Word Counter using HTML, CSS, and JavaScript, including features like counting characters, words, sentences, paragraphs, estimating reading time, and generating top keywords.
 
-  
-![image](https://github.com/AnubhavKumarGupta/Word_Counter/assets/122034618/f8661d0a-ed0b-4de2-83d6-4d7c9b388d16)
+<img width="960" alt="preview" src="https://github.com/AnubhavKumarGupta/Counter/assets/122034618/71a21df2-458d-402f-94b2-4ee6374e3c9d">
+
 
 
 
@@ -55,8 +56,8 @@ The webpage utilizes JavaScript to analyze the text entered in the textarea. The
 The project consists of the following files:
 
 * `index.html`: The main HTML file containing the webpage layout and structure.
-* `word.css`: The CSS file that styles the webpage elements.
-* `word.js`: The JavaScript file that handles the text analysis and manipulation functionalities.
+* `style.css`: The CSS file that styles the webpage elements.
+* `main.js`: The JavaScript file that handles the text analysis and manipulation functionalities.
 
 ## 
 
