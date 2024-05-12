@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!-- Defines the document type and version of HTML -->
+<html>
+
+<head>
+  <title>Word Counter</title> <!-- Sets the title of the webpage -->
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900' rel='stylesheet' type='text/css'> <!-- Links to a Google font stylesheet -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Sets the viewport for responsive design -->
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- Links to an external CSS file -->
+  <meta name="description" content="A word counter built in HTML/CSS/JS. Shows number of characters, words, reading time and readability score. Also generates a list of top keywords."> <!-- Provides a description of the webpage for search engines -->
+</head>
+
+<body>
+  <div class="container">
+    <h1>Word Counter</h1> <!-- Displays the title of the webpage -->
+
+    <textarea placeholder="Enter or paste your text here..."></textarea> <!-- Provides a text area for user input -->
+    
+    <div class="output row">
+      <div>No. of Characters: <span id="characterCount">0</span></div> <!-- Displays the number of characters in the input -->
+      <div>No. of Words: <span id="wordCount">0</span></div> <!-- Displays the number of words in the input -->
+    </div>
+    
+    <div class="output row">
+      <div>No. of Sentences: <span id="sentenceCount">0</span></div> <!-- Displays the number of sentences in the input -->
+      <div>No. of Paragraphs: <span id="paragraphCount">0</span></div> <!-- Displays the number of paragraphs in the input -->
+    </div>
+    
+    <div class="output row">
+      <div>Reading Time: <span id="readingTime">0</span></div> <!-- Displays the estimated reading time for the input -->
+    </div>
+    
+    <div class="keywords">
+      Top keywords:
+      <ul id="topKeywords"> <!-- Displays a list of top keywords from the input -->
+      </ul>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="footer">
+      <div class="center">
+        <p style="color:#fff;" > Made with ❤️ by <a style="color:#ffffff;" href = "https://github.com/AnubhavKumarGupta" target = "_blank"> Anubhav Kumar Gupta. </a></p> <!-- Credits for the creator of the webpage -->
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="main.js"></script> <!-- Links to an external JavaScript file -->
+</body>
+
+</html>
